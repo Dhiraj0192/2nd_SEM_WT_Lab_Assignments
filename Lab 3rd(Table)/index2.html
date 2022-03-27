@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Table Form</title>
+</head>
+
+<body>
+    <div align="center">
+        <table border="1px" cellspacing="0" cellpadding="5px">
+            <tr>
+                <th colspan="3">Purchase Bill</th>
+                <td colspan="2" align="right">
+                    Date : <input type="date" name="date">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">Vender : <textarea rows="3" cols="20"></textarea>
+                </td> 
+                <td colspan="3" align="center">Ship to : <textarea rows="3" cols="25" style="width:290px"></textarea></td>
+            </tr>
+            <tr>
+                <th>Qty</th>
+                <th>Item Code</th>
+                <th>Remarks</th>
+                <th>Unit Price</th>
+                <th>Total</th>
+            </tr>
+            <tr>
+                <td>
+                    <input type="number" name="Qty" size="300px">
+                </td>
+                <td>
+                    <select name="item code">
+    					<option value="">--Select code--</option>
+    					<option value="0011">0011</option>
+    					<option value="0012">0012</option>
+    					<option value="0013">0013</option>
+    					<option value="0014">0014</option>
+    					<option value="0015">0015</option>
+    					<option value="0016">0016</option>
+					</select>
+
+                </td>
+                <td>
+                    <input type="number" name="Unitprice" size="3px">
+                </td>
+                <td>
+                    <input type="number" name="total" size="3px" style="width:100px">
+                </td>
+
+
+                <td>
+                    <input type="number" name="Remarks" size="5px" style="width:80px">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="number" name="Qty" size="300px">
+                </td>
+                <td>
+                    <select name="item code">
+                        <option value="">--Select code--</option>
+                        <option value="0011">0017</option>
+                        <option value="0012">0018</option>
+                        <option value="0013">0019</option>
+                        <option value="0014">0020</option>
+                        <option value="0015">0021</option>
+                        <option value="0016">0022</option>
+                    </select>
+
+                </td>
+                <td>
+                    <input type="number" name="Unitprice" size="3px">
+                </td>
+                <td>
+                    <input type="number" name="total" size="3px" style="width:100px">
+                </td>
+
+
+                <td>
+                    <input type="number" name="Remarks" size="5px" style="width:80px">
+                </td>
+            </tr>
+            <tr>
+                <th colspan="3">Sub Total</th>
+                <td colspan="2">
+                    <input type="number" name="subTotal" style="width:193px">
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2">Tax</th>
+                <td>
+                    <input type="text" name="remTax">
+                </td>
+                <td colspan="2">
+                    <input type="number" name="subTotal" style="width:193px">
+                </td>
+            </tr>
+            <tr>
+                <th colspan="3" align="right">Grand Total : </th>
+                <td colspan="2">
+                    <input type="number" name="subTotal" style="width:193px">
+                </td>
+            </tr>
+
+        </table>
+    </div>
+
+</body>
+
+</html>
