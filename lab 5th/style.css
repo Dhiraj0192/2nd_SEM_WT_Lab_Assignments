@@ -1,0 +1,63 @@
+
+/**********Registration Form************/
+
+.{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url(images/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.reg_form{
+	display: inline-block;
+	background-image: url(images/reg_image.jpg);
+	margin-top: 25px;
+	margin-left: 35%;
+	margin-right: 10%;
+	padding: 30px;
+	border-radius: 25px;
+}
+.title{
+	text-transform: capitalize;
+}
+.required{
+	color: red;
+}
+.input_title{
+	font-size: 18px;
+	font-weight: bold;
+}
+.address_title{
+	text-transform: capitalize;
+	text-decoration: underline;
+	text-align: center;
+}
+
+.submit{
+	background-color: orangered;
+	color: white;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 15px;
+	margin-right: 10px;
+
+}
+.reset{
+	background-color: skyblue;
+	color: white;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 15px;
+	margin-left: 10px;
+
+}
+.buttons{
+	text-align: center;
+}

@@ -1,0 +1,25 @@
+
+/**********Grid Image************/
+
+body{
+	margin: 0;
+	padding: 0;
+}
+.main{
+	text-align: center;
+	background-image: url(images/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.images{
+	display: inline-block;
+}
+.images1{
+	display: inline-block;
+}
+img{
+	padding: 20px;
+	height: 60vh;
+	width: 40vw;
+	
+}

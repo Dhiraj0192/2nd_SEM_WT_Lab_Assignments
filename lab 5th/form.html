@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Form</title>
+</head>
+<body>
+	<div class="reg_form">
+		<h1 class="title"><u>Student Registration Form</u></h1>
+		<form>
+			<span class="input_title">Name</span><span class="required">*</span> : <input type="text" name="name" required><br><br>
+			<span class="input_title">Parents Name</span><span class="required">*</span> : <input type="text" name="parentsName" required><br><br>
+			<span class="input_title">Mobile</span><span class="required">*</span> : <input type="number" name="mobleNo" required><br><br>
+			<span class="input_title">Email</span><span class="required">*</span> : <input type="email" name="email" required><br><br>
+			<span class="input_title">Gender</span><span class="required">*</span> : <input type="radio" name="gender" value="male" required> Male
+					<input type="radio" name="gender" value="female" required> Female<br><br>
+			<span class="input_title">Photo</span><span class="required">*</span> : <input type="file" name="photo"><br><br>
+			<span class="input_title">Program</span><span class="required">*</span> : <select required>
+				<option>BE-Software</option>
+				<option>BE-IT</option>
+				<option>BE-CE</option>
+			</select><br><br>
+			<div class="address">
+				<h2 class="address_title">Address Details : </h2>
+			<span class="input_title">Province</span><span class="required">*</span> : <select required>
+				<option>Province 1</option>
+				<option>Madhesh</option>
+				<option>Bagmati</option>
+			</select><br><br>
+			<span class="input_title">District</span><span class="required">*</span> : <select required>
+				<option>Kathmandu</option>
+				<option>Kathmandu</option>
+				<option>Kathmandu</option>
+			</select><br><br>
+			<span class="input_title">Description</span><span class="required">*</span> : <textarea required></textarea>
+			<br><br>
+			<input type="checkbox" name="terms" required> I accept the terms & condition
+			<br><br>
+			<div class="buttons">
+				<input type="submit" name="submit" class="submit">
+			<input type="reset" name="reset" class="reset">
+			</div>
+			
+			</div>
+			
+		</form>
+	</div>
+</body>
+</html>
