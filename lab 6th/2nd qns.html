@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>2nd Question</title>
+</head>
+<body>
+
+    
+
+</body>
+<script type="text/javascript">
+    		var words= prompt("Enter the words separated by commas");
+            var words1 = words.split(",");
+
+            var words2 = words1.join("*");
+
+            document.write("The words are : " + words2);
+            document.write("<br>");
+
+            document.write("Total number of words : " + words1.length);  
+            document.write("<br>");
+
+            document.write("The first word is : " + words1[0]);
+            document.write("<br>");
+
+            document.write("The last word is : " + words1[words1.length-1]);
+            document.write("<br>");
+
+            document.write("The index of the last word is : " + words1.lastIndexOf(words1[words1.length-1]));
+            document.write("<br>");
+
+            document.write("The index of the first word is : " + words1.indexOf(words1[0]));
+            document.write("<br>");
+
+            document.write("The words in reverse order : " + words1.reverse());
+            document.write("<br>");
+
+            document.write("The words in sorted order : " + words1.sort());
+            document.write("<br>");
+</script>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>4th Question</title>
+</head>
+<body>
+
+</body>
+<script type="text/javascript">
+	var usertext = prompt("Enter the text");
+    var text = prompt("Enter the character to find in your text");
+    var count = 0;
+    for (var i = 0; i < usertext.length; i++) {
+        if (usertext[i] == text) {
+            count++;
+        }
+    }
+    document.write("The number of occurances of " + text + " in your text " + usertext + " is " + count);
+</script>
+</html>
